@@ -99,10 +99,35 @@ button[disabled] {
   cursor: default;
   background: #c0c7cf;
 }
+/* Slider */
+.rangeslider {
+  width:95%;
+}
+.lengthslider{
+  -webkit-appearance: none;
+  background: rgba(175, 3, 255, 0.308);
+  width:20%;
+  height:10px;
+  opacity: 2;
+  border-radius: 6px 6px 6px 6px;
+}
+.lengthslider:hover {
+  opacity: 1;
+}
+.rangeslider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  cursor:pointer;
+  background: url();
+  background-size:100%;
+  background-position: center;
+  
+}
+
 
 .float-right {
   float: right;
 }
+/* password */
 
 #password {
   -webkit-appearance: none;
@@ -123,6 +148,9 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+.password-choices{
+
 }
 
 @media (max-width: 690px) {
