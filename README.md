@@ -1,6 +1,6 @@
 # password-generator
 
-LINK:
+LINK: https://juvoros.github.io/password-generator/
 
 USER STORY:
 AS AN employee with access to sensitive data
