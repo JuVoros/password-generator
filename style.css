@@ -117,7 +117,7 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #0077ff;
+  border: 8px double #9500f2;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
